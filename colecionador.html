@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSC</title>
+    <style>
+        .titulo-principal {
+            color: #000000;
+            margin-top: 40px;
+            margin-left: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 35px;
+            -webkit-text-stroke: 1px yellow;
+        }
+
+        /* Fundo da página */
+        body {
+            background-color: #000000;
+        }
+
+        .colecao {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.05);
+  border: 2px solid yellow;
+  border-radius: 12px;
+  padding: 8px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px yellow;
+}
+
+/* IMAGENS */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* TEXTO */
+.card h3 {
+  margin: 10px 0 5px;
+  color: yellow;
+}
+
+.card p {
+  font-size: 14px;
+  color: yellow;
+}
+    </style>
+</head>
+<body>
+    <h1 class="titulo-principal">Light Saber Collections</h1>
+
+<div class="colecao">
+
+    <div class="card">
+        <img src="anakin.ls.jpg">
+        <h3>Skywalker lightsaber</h3>
+        <p>A legendary blue lightsaber used by Anakin Skywalker, Luke Skywalker, and Rey.</p>
+    </div>
+
+    <div class="card">
+        <img src="luke.ls.jpg">
+        <h3>Luke Skywalker's green lightsaber</h3>
+        <p>A green lightsaber built by Luke Skywalker after losing his original weapon.</p>
+    </div>
+
+    <div class="card">
+        <img src="macewindu.ls.webp">
+        <h3>Mace Windu's lightsaber</h3>
+        <p>A rare purple lightsaber used by Mace Windu, representing balance between light and dark.</p>
+    </div>
+
+    <div class="card">
+        <img src="masteryoda.ls.webp">
+        <h3>Yoda's Lightsaber</h3>
+        <p>A small green lightsaber used by Master Yoda, symbolizing Jedi wisdom and power.</p>
+    </div>
+
+    <div class="card">
+        <img src="vader.ls.jpg">
+        <h3>Dart Vader's Lightsaber</h3>
+        <p>A red Sith lightsaber used by Darth Vader, symbolizing the dark side of the Force.</p>
+    </div>
+
+    <div class="card">
+        <img src="darth maul.ls.webp">
+        <h3>Darth Maul’s Double-Bladed Lightsaber</h3>
+        <p>A double-bladed red lightsaber used by Darth Maul for aggressive combat.</p>
+    </div>
+
+    <div class="card">
+        <img src="countdoku.ls.webp">
+        <h3>Count Dooku’s Curved Lightsaber</h3>
+        <p>A red lightsaber with a curved hilt, used by Count Dooku for elegant dueling.</p>
+    </div>
+
+    <div class="card">
+        <img src="ahsokatano.ls.webp">
+        <h3>Ahsoka Tano’s White Lightsabers</h3>
+        <p>Two white lightsabers used by Ahsoka Tano, representing independence from Jedi and Sith.</p>
+    </div>
+
+    <div class="card">
+        <img src="darksaber.ls.jpg">
+        <h3>The Darksaber</h3>
+        <p>A unique black lightsaber with a white blade, symbol of Mandalorian leadership</p>
+    </div>
+
+</div>
+
+</body>
+</html>
