@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade HTML</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      color: #333;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      background-color: #5aacdc;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #2980b9;
+      border-bottom: 2px solid #5aacdc;
+      padding-bottom: 5px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th {
+      background-color: #5aacdc;
+      color: white;
+      padding: 8px;
+    }
+
+    td {
+      padding: 8px;
+      background-color: white;
+    }
+
+    a {
+      color: #2980b9;
+    }
+
+    hr {
+      border: 1px solid #5aacdc;
+    }
+
+    form {
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #5aacdc;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      border: 1px solid #5aacdc;
+      padding: 6px;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      background-color: #2980b9;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #5aacdc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Minha Página</h1>
+  <h2>Sobre mim</h2>
+  <p>Olá! Meu nome é João e sou estudante de programação.</p>
+
+  <h2>Minhas matérias favoritas</h2>
+  <ul>
+    <li>Programação Web</li>
+    <li>Banco de Dados</li>
+    <li>Lógica de Programação</li>
+  </ul>
+
+  <h2>Tabela de Notas</h2>
+  <table border="1">
+    <tr>
+      <th>Matéria</th>
+      <th>Nota</th>
+    </tr>
+    <tr>
+      <td>Programação Web</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <td>Banco de Dados</td>
+      <td>9.0</td>
+    </tr>
+  </table>
+
+  <h2>Link útil</h2>
+  <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+
+  <hr>
+
+  <h2>Formulário de Avaliação</h2>
+  <form action="#" method="post">
+
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome"><br><br>
+
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label>Como você avalia o conteúdo estudado?</label><br>
+    <input type="radio" name="avaliacao_conteudo" value="otimo"> Ótimo<br>
+    <input type="radio" name="avaliacao_conteudo" value="bom"> Bom<br>
+    <input type="radio" name="avaliacao_conteudo" value="regular"> Regular<br>
+    <input type="radio" name="avaliacao_conteudo" value="ruim"> Ruim<br><br>
+
+    <label>Como você avalia o material disponibilizado?</label><br>
+    <input type="radio" name="avaliacao_material" value="otimo"> Ótimo<br>
+    <input type="radio" name="avaliacao_material" value="bom"> Bom<br>
+    <input type="radio" name="avaliacao_material" value="regular"> Regular<br>
+    <input type="radio" name="avaliacao_material" value="ruim"> Ruim<br><br>
+
+    <label for="comentario">Comentários:</label><br>
+    <textarea id="comentario" name="comentario" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+
+  </form>
+
+</body>
+</html>
